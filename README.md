@@ -1,1 +1,3 @@
 # Team-Profile-Generator
+
+This is a command-line programme that gathers data on members of a software engineering team and produces an HTML webpage with summaries for each individual. Once built, it gives the user quick access to each employee's name, ID, and email so they can get in touch with everyone on the team. Each email has a link that allows you to email a specific employee directly. You have three options for employees: a manager, an engineer, and an intern. Each choice has a different set of informational questions.
