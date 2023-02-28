@@ -15,17 +15,7 @@ const questions = require("./src/questions.js");
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
 
 function createEngineer(team) {
-    inquirer.prompt([
-        // Engineer name
-        // Engineer id
-        // Engineer email
-        // Engineer GitHub username
-        {
-            type: 'input',
-            name: 'name',
-            message: "What is the engineer's name?",
-        }
-    ]).then((engineerDetails) => {
+    inquirer.prompt(questions.Engineer).then((engineerDetails) => {
         // Initialise Engineer class to create Manager object
         // const engineer = new Engineer(engineerDetails.name, engineerDetails.id, engineerDetails.email, engineerDetails.githubUsername)
         // team.push(engineer);
