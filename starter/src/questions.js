@@ -3,7 +3,7 @@ const manager = [
     {
       type: 'input',
       name: 'name',
-      message: "What is Manger's first name?",
+      message: "What is the team manager's name?",
     },
     {
       type: 'number',
