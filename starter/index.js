@@ -9,7 +9,7 @@ const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./src/page-template.js");
-const questions = require("./src/questions.js");
+
 
 
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
@@ -19,7 +19,7 @@ function createEngineer(team) {
         {
           type: 'input',
           name: 'name',
-          message: "What is Engineer's first name?",
+          message: "What is Engineer's name?",
         },
         {
           type: 'number',
@@ -50,7 +50,7 @@ function createIntern(team) {
         {
           type: 'input',
           name: 'name',
-          message: "What is Intern's first name?",
+          message: "What is Intern's name?",
         },
         {
           type: 'number',
